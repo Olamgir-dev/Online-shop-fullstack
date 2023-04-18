@@ -16,9 +16,9 @@ app.use((req, res, next) => {
   console.log(`${req.method}: ${req.path}`);
   next();
 });
-
+ 
 // routers
-const productRouter = require("./routes/products");
+const productRouter = require("./routes/productsRoute");
  app.use("/products", productRouter);
 const categoryRouter = require("./routes/categorys");
 app.use("/categorys", categoryRouter);

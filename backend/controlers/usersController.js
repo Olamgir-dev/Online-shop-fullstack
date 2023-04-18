@@ -32,4 +32,7 @@ const login = async (req, res) => {
 
 }
 
-module.exports = { getAllUsers, signup, login };
+module.exports = { 
+    getAllUsers, 
+    signup, 
+    login };
